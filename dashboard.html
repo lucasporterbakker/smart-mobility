@@ -11,6 +11,7 @@
     <link href="./assets/js/plugins/nucleo/css/nucleo.css" rel="stylesheet" />
     <link href="./assets/js/plugins/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0ae8d9374b.js" crossorigin="anonymous"></script>
   </head>
 
 
@@ -43,12 +44,12 @@
                       </div>
                       <div class="col-auto">
                         <div class="icon icon-shape bg-danger text-white rounded-circle shadow">
-                          <i class="fas fa-chart-bar"></i>
+                          <i class="fas fa-car"></i>
                         </div>
                       </div>
                     </div>
                     <p class="mt-3 mb-0 text-muted text-sm">
-                      <span class="text-success mr-2"><i class="fa fa-arrow-up"></i> 19.8%</span>
+                      <span class="text-success mr-2"><i class="fas fa-chart-line"></i></i> 19.8%</span>
                       <span class="text-nowrap">CAGR 2019-2023</span>
                     </p>
                   </div>
@@ -64,12 +65,12 @@
                       </div>
                       <div class="col-auto">
                         <div class="icon icon-shape bg-warning text-white rounded-circle shadow">
-                          <i class="fas fa-chart-pie"></i>
+                          <i class="fas fa-parking"></i>
                         </div>
                       </div>
                     </div>
                     <p class="mt-3 mb-0 text-muted text-sm">
-                      <span class="text-danger mr-2"><i class="fas fa-arrow-down"></i> 20%</span>
+                      <span class="text-success mr-2"><i class="fas fa-chart-line"></i> 20%</span>
                       <span class="text-nowrap">CAGR 2015-2025</span>
                     </p>
                   </div>
@@ -85,12 +86,12 @@
                       </div>
                       <div class="col-auto">
                         <div class="icon icon-shape bg-yellow text-white rounded-circle shadow">
-                          <i class="fas fa-users"></i>
+                          <i class="fas fa-bicycle"></i>
                         </div>
                       </div>
                     </div>
                     <p class="mt-3 mb-0 text-muted text-sm">
-                      <span class="text-warning mr-2"><i class="fas fa-arrow-down"></i> 11.95%</span>
+                      <span class="text-success mr-2"><i class="fas fa-chart-line"></i> 11.95%</span>
                       <span class="text-nowrap">CAGR 2019-2029</span>
                     </p>
                   </div>
@@ -106,12 +107,12 @@
                       </div>
                       <div class="col-auto">
                         <div class="icon icon-shape bg-info text-white rounded-circle shadow">
-                          <i class="fas fa-percent"></i>
+                          <i class="fas fa-mobile-alt"></i>
                         </div>
                       </div>
                     </div>
                     <p class="mt-3 mb-0 text-muted text-sm">
-                      <span class="text-success mr-2"><i class="fas fa-arrow-up"></i> 5.4%</span>
+                      <span class="text-success mr-2"> 5.4%</span>
                       <span class="text-nowrap">Projected Penetration of AVs</span>
                     </p>
                   </div>
@@ -161,19 +162,147 @@
           </div>
           <div class="col-xl-4">
             <div class="card shadow">
-              <div class="card-header bg-transparent">
+              <div class="card-header border-0">
                 <div class="row align-items-center">
                   <div class="col">
-                    <h6 class="text-uppercase text-muted ls-1 mb-1">Performance</h6>
-                    <h2 class="mb-0">Total orders</h2>
+                    <h3 class="mb-0">EVs as a Percentage of Total Vehicle Sales</h3>
                   </div>
+                  <!-- <div class="col text-right">
+                    <a href="https://dutchreview.com/culture/society/5-illuminating-charts-from-visual-capitalist-how-does-the-netherlands-rank/attachment/electic-vehicle-sales-visual-capitalist/" target="_blank" class="btn btn-sm btn-primary">Source</a>
+                  </div> -->
                 </div>
               </div>
-              <div class="card-body">
-                <!-- Chart -->
-                <div class="chart">
-                  <canvas id="chart-orders" class="chart-canvas"></canvas>
-                </div>
+              <div class="table-responsive">
+                <!-- Projects table -->
+                <table class="table align-items-center table-flush">
+                  <thead class="thead-light">
+                    <tr>
+                      <th scope="col">Country</th>
+                      <th scope="col"></th>
+                      <th scope="col"></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">
+                        Norway
+                      </th>
+
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <span class="mr-2">49.1%</span>
+                          <div>
+                            <div class="progress">
+                              <div class="progress-bar bg-gradient-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">
+                        Iceland
+                      </th>
+
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <span class="mr-2">19.1%</span>
+                          <div>
+                            <div class="progress">
+                              <div class="progress-bar bg-gradient-success" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">
+                        Sweden
+                      </th>
+
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <span class="mr-2">8%</span>
+                          <div>
+                            <div class="progress">
+                              <div class="progress-bar bg-gradient-info" role="progressbar" aria-valuenow="8" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">
+                        Netherlands
+                      </th>
+
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <span class="mr-2">6.7%</span>
+                          <div>
+                            <div class="progress">
+                              <div class="progress-bar bg-gradient-info" role="progressbar" aria-valuenow="7" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th scope="row">
+                        Finland
+                      </th>
+
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <span class="mr-2">4.7%</span>
+                          <div>
+                            <div class="progress">
+                              <div class="progress-bar bg-gradient-primary" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100" style="width: 30%;"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th scope="row">
+                        China
+                      </th>
+                      <!-- <td>
+                        1,480
+                      </td> -->
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <span class="mr-2">4.4%</span>
+                          <div>
+                            <div class="progress">
+                              <div class="progress-bar bg-gradient-primary" role="progressbar" aria-valuenow="4" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th scope="row">
+                        Portugal
+                      </th>
+
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <span class="mr-2">3.4%</span>
+                          <div>
+                            <div class="progress">
+                              <div class="progress-bar bg-gradient-danger" role="progressbar" aria-valuenow="3" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>
