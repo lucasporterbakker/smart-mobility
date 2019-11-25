@@ -43,5 +43,48 @@ body {
 }
 
 #objectives{
-  
+
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+  text-align: center;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+
+.btn-white {
+  background: RGBA(248, 249, 254, 1.00);
+  color: RGBA(34, 44, 47, 1.00);
+}
+
+.btn-white a:hover {
+  color: RGBA(34, 44, 47, .5);
+}
+
+.avatar {
+  width: 35px;
+  border-radius: 50%;
+  opacity: .5;
+}
+
+.avatar:hover{
+  opacity: 1;
 }
