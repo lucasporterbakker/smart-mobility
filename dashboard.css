@@ -17696,11 +17696,20 @@ section {
  .timeline-card p {
 	 padding: 0 20px;
 }
+
+
+@media (max-width: 978px) {
+  .timeline-card-right p {
+ 	 padding: 15px;
+ }
+}
+
+
  .timeline-card a {
 	 margin-left: 20px;
 }
  .timeline-item .timeline-img-header {
-	 background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .4)), url('https://picsum.photos/1000/800/?random') center center no-repeat;
+	 /* background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .4)), url('https://picsum.photos/1000/800/?random') center center no-repeat; */
 	 background-size: cover;
    border-top-left-radius: 0.375rem;
    border-top-right-radius: 0.375rem;
