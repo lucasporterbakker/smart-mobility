@@ -35,3 +35,7 @@
 .mentor-section {
   font-family: Open Sans, sans-serif;
 }
+
+.mentor-section p{
+  line-height: 25px;
+}
