@@ -88,3 +88,11 @@ body {
 .avatar:hover{
   opacity: 1;
 }
+
+.qi-feedback-section {
+  font-family: Open Sans, sans-serif;
+}
+
+.qi-feedback-section p{
+  line-height: 25px;
+}
